@@ -1,0 +1,12 @@
+digraph UPRN_summary{
+ratio = "auto"
+rankdir="TB";
+"esg:35001131" -> "q:UPRN" [label="rdf:type"];
+"esg:35001131" -> "35001131" [label="skos:notation"];
+"q:UPRN" -> "owl:Class"  [label="rdf:type"];
+"esg:35001131" -> "puborg:90b4305a_7cdb_444d_9e3a_0729b0c2c76a" [label="dct:publisher"];
+"puborg:90b4305a_7cdb_444d_9e3a_0729b0c2c76a" -> "Clackmannanshire Council" [label="rdfs:label"];
+"esg:35001131" -> "st:live" [label=":status"];
+"esg:35001131" -> "osdist:7000000000030418" [label=":within"];
+"puborg:90b4305a_7cdb_444d_9e3a_0729b0c2c76a" -> "osdist:7000000000030418" [label="cpov-ap-scot:adminsters"];
+}
